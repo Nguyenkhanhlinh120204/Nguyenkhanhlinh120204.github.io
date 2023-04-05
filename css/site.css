@@ -1,0 +1,229 @@
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+}
+
+.header  {
+    background-image: url(/images/head-background.jpg);
+    height: 950px;
+     width: 1900px;
+    }
+.header .menu .hotline{
+    padding: 0 1000px;
+    display: flex;
+    margin-left: 350px;
+    border-bottom:  2px solid white;
+}
+   
+
+.header .menu  .hotline ul li:last-child{
+    margin-top: 50px;
+}  
+.header .menu .hotline ul li{
+    display: flex;
+    background-color: #49A333;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px 50px 10px 50px;
+    justify-content: space-between;
+    flex-direction:  row;
+    border-radius :10px;
+}
+.header .menu .hotline{
+padding: 0 100px ;
+  }
+
+.header .menu .second{
+    position: absolute;
+    top: 70%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    width:20%;
+    padding:10px 40px 0 40px;
+    background: #678B37;
+    box-sizing: border-box;
+    border: 10px solid #CED086;
+    box-shadow: 0 15px 25px rgba(243, 233, 233, 0.5);
+    color: white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+      text-align: center;
+}
+
+.header .menu .second .o_nhap{
+    position: relative;
+}
+.header .menu .second input{
+    position: relative;
+     width: 100%;
+     font-size: 1.2rem;
+     padding: 0.8rem 0;
+     color:#fff;
+     margin-bottom:2rem;
+     border:none;
+     border-bottom:1px solid #c8c6c6;
+     border-top: 0.2px solid #7b915a;
+     outline: none;
+     background:#678B37 ;
+}
+.header .menu .second .o_nhap label {
+     position: absolute;
+     top:0;
+     left:0;
+     font-size: 1.2rem;
+     padding: 0.8rem 0;
+     color:#fff;
+     pointer-events: none;
+     transition: .5s;
+ }
+ .header .menu .second .o_nhap input:focus ~ label,
+ .header .menu .second .o_nhap input:valid ~ label {
+    top:-1.5rem;
+    left:0;
+    color:#03a9f4;
+    font-size:0.8rem;
+}
+.header .menu .second .o_nhap input[type="submit"] {
+    background: transparent;
+    border:none;
+    outline: none;
+    color:#fff;
+    background: #03a9f4;
+    padding: 1rem 1.5rem;
+    font-size: 0.8rem;
+    cursor: pointer;
+}
+.border{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    margin-top: 10px;
+
+}
+.border .text .text1{
+    position: absolute;
+		  left: 30%;
+		  margin-left: -50px;
+          justify-content: space-between;
+          text-align: justify;
+}
+.border .text .text2{
+    margin-top: 300px;
+    width:50;
+    text-align: justify;
+    justify-content: space-between;
+}
+.border .text  h3 {
+    color: #49A333;
+}
+.border .hight h3 {
+    color:#49A333;
+}
+.border .hight {
+    position: absolute;
+		  left: 55%;
+		  margin-left: -50px;
+          text-align: center;
+          justify-content:space-between;
+}
+.slide{
+    display: flex;
+    flex-direction: row;
+   
+    margin: 0 20% 0 20%;
+}
+.slide .slide1{
+    color: white;
+    margin-right: 20px;
+    text-align: justify;
+    padding-left: 40px;
+		 
+}
+.slide .slide1 h2{
+    text-align: center;
+    border-bottom: 1px solid white;
+}
+
+.end .end1 .end2{
+    text-align: center;
+    padding: 20px;
+    color: #2A6E01;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+}
+.slide .slide1 .slide2 {
+    position: absolute;
+   
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.hight{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 20% 0 20%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+.hight .hight1{
+   
+    margin-right: 20px;
+    text-align: justify;
+    padding-left: 10px;
+		 
+}
+.hight .hight1 h3{
+    text-align: center;
+    border-bottom: 1px solid white;
+}
+.hight .hight1 .hight2 {
+    position: absolute;
+   
+    display: flex;
+    justify-content: space-between;
+}
+
+.test{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 20% 0 20%;
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+.test .test2{
+   
+    text-align: justify;
+    
+    text-align: center;
+		 
+}
+.test .test2 h3{
+    text-align: center;
+    border-bottom: 1px solid white;
+}
+.test .test2 .test1 {
+    position: absolute;
+    justify-content: space-between;
+}
+.end .end1  .end3 input{
+    width: 100px;
+    height: 30px;
+     border-bottom:0px solid #1c1414;
+     outline: none;
+     text-align:justify;
+     
+     
+}
+.end{
+    margin: 10px;
+}
+::placeholder{
+    color: #1c1414;
+}
